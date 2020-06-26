@@ -114,6 +114,7 @@
             this.cram_btn.TabIndex = 7;
             this.cram_btn.Text = "Cram Work";
             this.cram_btn.UseVisualStyleBackColor = true;
+            this.cram_btn.Click += new System.EventHandler(this.cram_btn_Click);
             // 
             // info_btn
             // 
@@ -133,6 +134,7 @@
             this.sleep_btn.TabIndex = 9;
             this.sleep_btn.Text = "Sleep";
             this.sleep_btn.UseVisualStyleBackColor = true;
+            this.sleep_btn.Click += new System.EventHandler(this.sleep_btn_Click);
             // 
             // cheat_btn
             // 
@@ -142,6 +144,7 @@
             this.cheat_btn.TabIndex = 10;
             this.cheat_btn.Text = "Cheat";
             this.cheat_btn.UseVisualStyleBackColor = true;
+            this.cheat_btn.Click += new System.EventHandler(this.cheat_btn_Click);
             // 
             // math_btn
             // 
